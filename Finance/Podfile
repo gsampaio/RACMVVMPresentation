@@ -1,0 +1,25 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "8.0"
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "Finance" do
+	pod 'ReactiveCocoa', '~> 2.3.1'
+	# pod 'TesseractOCRiOS', '~> 2.22'
+	pod 'Mantle', '~> 1.5.1'
+	pod 'ReactiveViewModel', '~> 0.2'
+	pod 'DZNEmptyDataSet', '~> 1.4.1'
+end
+
+target "Unit Tests" do
+	pod 'OCMock', '~> 3.1.1'
+	pod 'Expecta', '~> 0.3.1'
+	# pod 'Expecta+ReactiveCocoa', '~> 0.2.0'
+	pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
+end
+
+target "Acceptance Tests" do
+  pod 'Expecta', '~> 0.3.1'
+  pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
+  pod 'KIF', '~> 3.0'
+end

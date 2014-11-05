@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E68D8F6877DC1E62691441 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		20C5BA91AFC10E17E019DD6B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2C5BB4DD0088151A8694E6D4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		438EF847E0E38725DD73FC47 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		4B2BA8FA2595ED872E35AF90 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		593899B6ABCB458360905304 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		658C51A4B4C57191C05C28DD /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6B4DB04ED67837AFA30481BB /* libPods-Finance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E91DEC1C4628168D6DDAED1 /* libPods-Finance.a */; };
+		6DFB7CD5F85832E89FD61269 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		7DF2735E3C20FF4F6473FB15 /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73208F75DEB1B5160455DC18 /* libPods-Acceptance Tests.a */; };
+		822F1FC3091E88BC55059943 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		85DF1E0AC0A37ADF1D9F413D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		93463AB826069CD39FD5C1FE /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		C0357B9619E7658A00243784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357B9519E7658A00243784 /* main.m */; };
+		C0357B9919E7658A00243784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357B9819E7658A00243784 /* AppDelegate.m */; };
+		C0357B9F19E7658A00243784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0357B9D19E7658A00243784 /* Main.storyboard */; };
+		C0357BA119E7658A00243784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0357BA019E7658A00243784 /* Images.xcassets */; };
+		C0357BA419E7658A00243784 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0357BA219E7658A00243784 /* LaunchScreen.xib */; };
+		C0357BBB19E765E200243784 /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BBA19E765E200243784 /* AccountsViewController.m */; };
+		C0357BC219E76A0B00243784 /* AccountsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BC119E76A0B00243784 /* AccountsViewModel.m */; };
+		C0357BC519E76B1600243784 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BC419E76B1600243784 /* Database.m */; };
+		C0357BC819E76E4300243784 /* AccountCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BC719E76E4300243784 /* AccountCellViewModel.m */; };
+		C0357BCB19E76E5200243784 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BCA19E76E5200243784 /* Account.m */; };
+		C0357BCE19E7702400243784 /* AddAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BCD19E7702400243784 /* AddAccountViewController.m */; };
+		C0357BD119E7719100243784 /* AddAccountViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BD019E7719100243784 /* AddAccountViewModel.m */; };
+		C0357BD519E780E900243784 /* AccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0357BD419E780E900243784 /* AccountTableViewCell.m */; };
+		C044D45C19EB0F81006EE857 /* DatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C044D45B19EB0F81006EE857 /* DatabaseTests.m */; };
+		C089C73B19FD72D000D8F7DD /* AccountsEmptyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C089C73A19FD72D000D8F7DD /* AccountsEmptyViewModel.m */; };
+		C089C73E19FD78CC00D8F7DD /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = C089C73D19FD78CC00D8F7DD /* Entry.m */; };
+		C08EE8D819EB18830099A946 /* AccountsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08EE8D719EB18830099A946 /* AccountsViewModelTests.m */; };
+		C08EE8DA19EB3BB00099A946 /* AccountCellViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08EE8D919EB3BB00099A946 /* AccountCellViewModelTests.m */; };
+		C08EE8DC19EB3D170099A946 /* AddAccountViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08EE8DB19EB3D170099A946 /* AddAccountViewModelTests.m */; };
+		C0C1892119E9E742004928C4 /* AddAccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C1892019E9E742004928C4 /* AddAccountTest.m */; };
+		C0C88EA519FF3E81000BCD94 /* AddEntryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EA419FF3E81000BCD94 /* AddEntryViewModel.m */; };
+		C0C88EAC19FF3EDF000BCD94 /* AddEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EAB19FF3EDF000BCD94 /* AddEntryViewController.m */; };
+		C0C88EB019FF3F82000BCD94 /* EntryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EAF19FF3F82000BCD94 /* EntryListViewController.m */; };
+		C0C88EB719FF41E6000BCD94 /* EntryListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EB619FF41E6000BCD94 /* EntryListViewModel.m */; };
+		C0C88EBA19FF4330000BCD94 /* EntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EB919FF4330000BCD94 /* EntryTableViewCell.m */; };
+		C0C88EBD19FF43A0000BCD94 /* EntryListEmptyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EBC19FF43A0000BCD94 /* EntryListEmptyViewModel.m */; };
+		C0C88EC019FF469C000BCD94 /* EntryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C88EBF19FF469C000BCD94 /* EntryViewModel.m */; };
+		C4567CD7870DB29EBD71FBB4 /* libPods-Unit Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710D02F824C81E22319E652E /* libPods-Unit Tests.a */; };
+		DB81FFFB43F98464BD4DA989 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		FB1BC02EDD56D596195A0A1A /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C1891B19E9E614004928C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0357B8819E7658A00243784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0357B8F19E7658A00243784;
+			remoteInfo = Finance;
+		};
+		C0C1892C19EAD6C1004928C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0357B8819E7658A00243784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0357B8F19E7658A00243784;
+			remoteInfo = Finance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541FDB9A0CBCA8C0DB1650B3 /* Pods-Finance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Finance/Pods-Finance.debug.xcconfig"; sourceTree = "<group>"; };
+		5820B6FB5CDDD7BC9FAB24BD /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		710D02F824C81E22319E652E /* libPods-Unit Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unit Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73208F75DEB1B5160455DC18 /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E91DEC1C4628168D6DDAED1 /* libPods-Finance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Finance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0357B9019E7658A00243784 /* Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0357B9419E7658A00243784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0357B9519E7658A00243784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0357B9719E7658A00243784 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0357B9819E7658A00243784 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0357B9E19E7658A00243784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0357BA019E7658A00243784 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0357BA319E7658A00243784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0357BB919E765E200243784 /* AccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountsViewController.h; path = View/AccountsViewController.h; sourceTree = "<group>"; };
+		C0357BBA19E765E200243784 /* AccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountsViewController.m; path = View/AccountsViewController.m; sourceTree = "<group>"; };
+		C0357BC019E76A0B00243784 /* AccountsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountsViewModel.h; path = ViewModel/AccountsViewModel.h; sourceTree = "<group>"; };
+		C0357BC119E76A0B00243784 /* AccountsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountsViewModel.m; path = ViewModel/AccountsViewModel.m; sourceTree = "<group>"; };
+		C0357BC319E76B1600243784 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Model/Database.h; sourceTree = "<group>"; };
+		C0357BC419E76B1600243784 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = Model/Database.m; sourceTree = "<group>"; };
+		C0357BC619E76E4300243784 /* AccountCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountCellViewModel.h; path = ViewModel/AccountCellViewModel.h; sourceTree = "<group>"; };
+		C0357BC719E76E4300243784 /* AccountCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountCellViewModel.m; path = ViewModel/AccountCellViewModel.m; sourceTree = "<group>"; };
+		C0357BC919E76E5200243784 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		C0357BCA19E76E5200243784 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		C0357BCC19E7702400243784 /* AddAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddAccountViewController.h; path = View/AddAccountViewController.h; sourceTree = "<group>"; };
+		C0357BCD19E7702400243784 /* AddAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddAccountViewController.m; path = View/AddAccountViewController.m; sourceTree = "<group>"; };
+		C0357BCF19E7719100243784 /* AddAccountViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddAccountViewModel.h; path = ViewModel/AddAccountViewModel.h; sourceTree = "<group>"; };
+		C0357BD019E7719100243784 /* AddAccountViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddAccountViewModel.m; path = ViewModel/AddAccountViewModel.m; sourceTree = "<group>"; };
+		C0357BD319E780E900243784 /* AccountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountTableViewCell.h; path = View/AccountTableViewCell.h; sourceTree = "<group>"; };
+		C0357BD419E780E900243784 /* AccountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountTableViewCell.m; path = View/AccountTableViewCell.m; sourceTree = "<group>"; };
+		C044D45B19EB0F81006EE857 /* DatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTests.m; sourceTree = "<group>"; };
+		C089C73919FD72D000D8F7DD /* AccountsEmptyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountsEmptyViewModel.h; path = ViewModel/AccountsEmptyViewModel.h; sourceTree = "<group>"; };
+		C089C73A19FD72D000D8F7DD /* AccountsEmptyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountsEmptyViewModel.m; path = ViewModel/AccountsEmptyViewModel.m; sourceTree = "<group>"; };
+		C089C73C19FD78CC00D8F7DD /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entry.h; path = Model/Entry.h; sourceTree = "<group>"; };
+		C089C73D19FD78CC00D8F7DD /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entry.m; path = Model/Entry.m; sourceTree = "<group>"; };
+		C08EE8D719EB18830099A946 /* AccountsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsViewModelTests.m; sourceTree = "<group>"; };
+		C08EE8D919EB3BB00099A946 /* AccountCellViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountCellViewModelTests.m; sourceTree = "<group>"; };
+		C08EE8DB19EB3D170099A946 /* AddAccountViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccountViewModelTests.m; sourceTree = "<group>"; };
+		C09F1845C33F609C4B80D847 /* Pods-Finance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Finance/Pods-Finance.release.xcconfig"; sourceTree = "<group>"; };
+		C0C1891519E9E614004928C4 /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C1891819E9E614004928C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C1892019E9E742004928C4 /* AddAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccountTest.m; sourceTree = "<group>"; };
+		C0C1892619EAD6C0004928C4 /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C1892919EAD6C0004928C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C88EA319FF3E81000BCD94 /* AddEntryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEntryViewModel.h; sourceTree = "<group>"; };
+		C0C88EA419FF3E81000BCD94 /* AddEntryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEntryViewModel.m; sourceTree = "<group>"; };
+		C0C88EAA19FF3EDF000BCD94 /* AddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEntryViewController.h; path = View/AddEntryViewController.h; sourceTree = "<group>"; };
+		C0C88EAB19FF3EDF000BCD94 /* AddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEntryViewController.m; path = View/AddEntryViewController.m; sourceTree = "<group>"; };
+		C0C88EAE19FF3F82000BCD94 /* EntryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryListViewController.h; path = View/EntryListViewController.h; sourceTree = "<group>"; };
+		C0C88EAF19FF3F82000BCD94 /* EntryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryListViewController.m; path = View/EntryListViewController.m; sourceTree = "<group>"; };
+		C0C88EB519FF41E6000BCD94 /* EntryListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryListViewModel.h; path = ViewModel/EntryListViewModel.h; sourceTree = "<group>"; };
+		C0C88EB619FF41E6000BCD94 /* EntryListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryListViewModel.m; path = ViewModel/EntryListViewModel.m; sourceTree = "<group>"; };
+		C0C88EB819FF4330000BCD94 /* EntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryTableViewCell.h; path = View/EntryTableViewCell.h; sourceTree = "<group>"; };
+		C0C88EB919FF4330000BCD94 /* EntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryTableViewCell.m; path = View/EntryTableViewCell.m; sourceTree = "<group>"; };
+		C0C88EBB19FF43A0000BCD94 /* EntryListEmptyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryListEmptyViewModel.h; path = ViewModel/EntryListEmptyViewModel.h; sourceTree = "<group>"; };
+		C0C88EBC19FF43A0000BCD94 /* EntryListEmptyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryListEmptyViewModel.m; path = ViewModel/EntryListEmptyViewModel.m; sourceTree = "<group>"; };
+		C0C88EBE19FF469C000BCD94 /* EntryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryViewModel.h; path = ViewModel/EntryViewModel.h; sourceTree = "<group>"; };
+		C0C88EBF19FF469C000BCD94 /* EntryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryViewModel.m; path = ViewModel/EntryViewModel.m; sourceTree = "<group>"; };
+		C290D91E02A2A9B03504A9F9 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D20F659F1850652AFC9FBCA0 /* Pods-Unit Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unit Tests/Pods-Unit Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71E994F8D19D2D1653BAB50 /* Pods-Unit Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unit Tests/Pods-Unit Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0357B8D19E7658A00243784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4DB04ED67837AFA30481BB /* libPods-Finance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1891219E9E614004928C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DF1E0AC0A37ADF1D9F413D /* (null) in Frameworks */,
+				6DFB7CD5F85832E89FD61269 /* (null) in Frameworks */,
+				2C5BB4DD0088151A8694E6D4 /* (null) in Frameworks */,
+				658C51A4B4C57191C05C28DD /* (null) in Frameworks */,
+				FB1BC02EDD56D596195A0A1A /* (null) in Frameworks */,
+				DB81FFFB43F98464BD4DA989 /* (null) in Frameworks */,
+				4B2BA8FA2595ED872E35AF90 /* (null) in Frameworks */,
+				7DF2735E3C20FF4F6473FB15 /* libPods-Acceptance Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1892319EAD6C0004928C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822F1FC3091E88BC55059943 /* (null) in Frameworks */,
+				93463AB826069CD39FD5C1FE /* (null) in Frameworks */,
+				09E68D8F6877DC1E62691441 /* (null) in Frameworks */,
+				438EF847E0E38725DD73FC47 /* (null) in Frameworks */,
+				593899B6ABCB458360905304 /* (null) in Frameworks */,
+				20C5BA91AFC10E17E019DD6B /* (null) in Frameworks */,
+				C4567CD7870DB29EBD71FBB4 /* libPods-Unit Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63BE620851ED0B927F2E27C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73208F75DEB1B5160455DC18 /* libPods-Acceptance Tests.a */,
+				8E91DEC1C4628168D6DDAED1 /* libPods-Finance.a */,
+				710D02F824C81E22319E652E /* libPods-Unit Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		677477BB7F44A7A0B6DFF2D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5820B6FB5CDDD7BC9FAB24BD /* Pods-Acceptance Tests.debug.xcconfig */,
+				C290D91E02A2A9B03504A9F9 /* Pods-Acceptance Tests.release.xcconfig */,
+				541FDB9A0CBCA8C0DB1650B3 /* Pods-Finance.debug.xcconfig */,
+				C09F1845C33F609C4B80D847 /* Pods-Finance.release.xcconfig */,
+				D20F659F1850652AFC9FBCA0 /* Pods-Unit Tests.debug.xcconfig */,
+				D71E994F8D19D2D1653BAB50 /* Pods-Unit Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0357B8719E7658A00243784 = {
+			isa = PBXGroup;
+			children = (
+				C0357B9219E7658A00243784 /* Finance */,
+				C0C1891619E9E614004928C4 /* Acceptance Tests */,
+				C0C1892719EAD6C0004928C4 /* Unit Tests */,
+				C0357B9119E7658A00243784 /* Products */,
+				63BE620851ED0B927F2E27C3 /* Frameworks */,
+				677477BB7F44A7A0B6DFF2D7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C0357B9119E7658A00243784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0357B9019E7658A00243784 /* Finance.app */,
+				C0C1891519E9E614004928C4 /* Acceptance Tests.xctest */,
+				C0C1892619EAD6C0004928C4 /* Unit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0357B9219E7658A00243784 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BBF19E7696C00243784 /* Model */,
+				C0357BBC19E765EA00243784 /* View */,
+				C0357BBE19E7695D00243784 /* ViewModel */,
+				C0357B9719E7658A00243784 /* AppDelegate.h */,
+				C0357B9819E7658A00243784 /* AppDelegate.m */,
+				C0357B9D19E7658A00243784 /* Main.storyboard */,
+				C0357BA019E7658A00243784 /* Images.xcassets */,
+				C0357BA219E7658A00243784 /* LaunchScreen.xib */,
+				C0357B9319E7658A00243784 /* Supporting Files */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		C0357B9319E7658A00243784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0357B9419E7658A00243784 /* Info.plist */,
+				C0357B9519E7658A00243784 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0357BBC19E765EA00243784 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BBD19E765F000243784 /* ViewControllers */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C0357BBD19E765F000243784 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0C88EAD19FF3F6B000BCD94 /* EntryList */,
+				C0C88EA619FF3E89000BCD94 /* AddEntry */,
+				C0357BD219E780C500243784 /* Accounts */,
+				C044D45A19EB0F28006EE857 /* AddAccount */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C0357BBE19E7695D00243784 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0C88EB119FF418F000BCD94 /* Accounts */,
+				C0C88EB219FF419A000BCD94 /* AddAccount */,
+				C0C88EB419FF41CD000BCD94 /* EntryList */,
+				C0C88EB319FF41A6000BCD94 /* AddEntry */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C0357BBF19E7696C00243784 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BC319E76B1600243784 /* Database.h */,
+				C0357BC419E76B1600243784 /* Database.m */,
+				C0357BC919E76E5200243784 /* Account.h */,
+				C0357BCA19E76E5200243784 /* Account.m */,
+				C089C73C19FD78CC00D8F7DD /* Entry.h */,
+				C089C73D19FD78CC00D8F7DD /* Entry.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C0357BD219E780C500243784 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BB919E765E200243784 /* AccountsViewController.h */,
+				C0357BBA19E765E200243784 /* AccountsViewController.m */,
+				C0357BD319E780E900243784 /* AccountTableViewCell.h */,
+				C0357BD419E780E900243784 /* AccountTableViewCell.m */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		C044D45A19EB0F28006EE857 /* AddAccount */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BCC19E7702400243784 /* AddAccountViewController.h */,
+				C0357BCD19E7702400243784 /* AddAccountViewController.m */,
+			);
+			name = AddAccount;
+			sourceTree = "<group>";
+		};
+		C08EE8D519EB180C0099A946 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C044D45B19EB0F81006EE857 /* DatabaseTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C08EE8D619EB18160099A946 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C08EE8D719EB18830099A946 /* AccountsViewModelTests.m */,
+				C08EE8D919EB3BB00099A946 /* AccountCellViewModelTests.m */,
+				C08EE8DB19EB3D170099A946 /* AddAccountViewModelTests.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		C0C1891619E9E614004928C4 /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1891719E9E614004928C4 /* Supporting Files */,
+				C0C1892019E9E742004928C4 /* AddAccountTest.m */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		C0C1891719E9E614004928C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1891819E9E614004928C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C1892719EAD6C0004928C4 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C08EE8D519EB180C0099A946 /* Model */,
+				C08EE8D619EB18160099A946 /* View Model */,
+				C0C1892819EAD6C0004928C4 /* Supporting Files */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		C0C1892819EAD6C0004928C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C1892919EAD6C0004928C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C88EA619FF3E89000BCD94 /* AddEntry */ = {
+			isa = PBXGroup;
+			children = (
+				C0C88EAA19FF3EDF000BCD94 /* AddEntryViewController.h */,
+				C0C88EAB19FF3EDF000BCD94 /* AddEntryViewController.m */,
+			);
+			name = AddEntry;
+			sourceTree = "<group>";
+		};
+		C0C88EAD19FF3F6B000BCD94 /* EntryList */ = {
+			isa = PBXGroup;
+			children = (
+				C0C88EAE19FF3F82000BCD94 /* EntryListViewController.h */,
+				C0C88EAF19FF3F82000BCD94 /* EntryListViewController.m */,
+				C0C88EB819FF4330000BCD94 /* EntryTableViewCell.h */,
+				C0C88EB919FF4330000BCD94 /* EntryTableViewCell.m */,
+			);
+			name = EntryList;
+			sourceTree = "<group>";
+		};
+		C0C88EB119FF418F000BCD94 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BC019E76A0B00243784 /* AccountsViewModel.h */,
+				C0357BC119E76A0B00243784 /* AccountsViewModel.m */,
+				C089C73919FD72D000D8F7DD /* AccountsEmptyViewModel.h */,
+				C089C73A19FD72D000D8F7DD /* AccountsEmptyViewModel.m */,
+				C0357BC619E76E4300243784 /* AccountCellViewModel.h */,
+				C0357BC719E76E4300243784 /* AccountCellViewModel.m */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		C0C88EB219FF419A000BCD94 /* AddAccount */ = {
+			isa = PBXGroup;
+			children = (
+				C0357BCF19E7719100243784 /* AddAccountViewModel.h */,
+				C0357BD019E7719100243784 /* AddAccountViewModel.m */,
+			);
+			name = AddAccount;
+			sourceTree = "<group>";
+		};
+		C0C88EB319FF41A6000BCD94 /* AddEntry */ = {
+			isa = PBXGroup;
+			children = (
+				C0C88EA319FF3E81000BCD94 /* AddEntryViewModel.h */,
+				C0C88EA419FF3E81000BCD94 /* AddEntryViewModel.m */,
+			);
+			name = AddEntry;
+			sourceTree = "<group>";
+		};
+		C0C88EB419FF41CD000BCD94 /* EntryList */ = {
+			isa = PBXGroup;
+			children = (
+				C0C88EB519FF41E6000BCD94 /* EntryListViewModel.h */,
+				C0C88EB619FF41E6000BCD94 /* EntryListViewModel.m */,
+				C0C88EBB19FF43A0000BCD94 /* EntryListEmptyViewModel.h */,
+				C0C88EBC19FF43A0000BCD94 /* EntryListEmptyViewModel.m */,
+				C0C88EBE19FF469C000BCD94 /* EntryViewModel.h */,
+				C0C88EBF19FF469C000BCD94 /* EntryViewModel.m */,
+			);
+			name = EntryList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0357B8F19E7658A00243784 /* Finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0357BB319E7658A00243784 /* Build configuration list for PBXNativeTarget "Finance" */;
+			buildPhases = (
+				1C066D1B1A34785C65F7F15C /* Check Pods Manifest.lock */,
+				C0357B8C19E7658A00243784 /* Sources */,
+				C0357B8D19E7658A00243784 /* Frameworks */,
+				C0357B8E19E7658A00243784 /* Resources */,
+				A4193A41227B947E3771AF90 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finance;
+			productName = Finance;
+			productReference = C0357B9019E7658A00243784 /* Finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C1891419E9E614004928C4 /* Acceptance Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C1891F19E9E614004928C4 /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildPhases = (
+				B73713CA87E73408573F4CFD /* Check Pods Manifest.lock */,
+				C0C1891119E9E614004928C4 /* Sources */,
+				C0C1891219E9E614004928C4 /* Frameworks */,
+				C0C1891319E9E614004928C4 /* Resources */,
+				3D3E99CE9E1B6F6C1A2D5D9F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C1891C19E9E614004928C4 /* PBXTargetDependency */,
+			);
+			name = "Acceptance Tests";
+			productName = "Acceptance Tests";
+			productReference = C0C1891519E9E614004928C4 /* Acceptance Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0C1892519EAD6C0004928C4 /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C1892E19EAD6C1004928C4 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				C7AB8598B0D853A9A87A18D5 /* Check Pods Manifest.lock */,
+				C0C1892219EAD6C0004928C4 /* Sources */,
+				C0C1892319EAD6C0004928C4 /* Frameworks */,
+				C0C1892419EAD6C0004928C4 /* Resources */,
+				577FAABB1BE3B70B135A296E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C1892D19EAD6C1004928C4 /* PBXTargetDependency */,
+			);
+			name = "Unit Tests";
+			productName = "Unit Tests";
+			productReference = C0C1892619EAD6C0004928C4 /* Unit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0357B8819E7658A00243784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Guilherme Sampaio";
+				TargetAttributes = {
+					C0357B8F19E7658A00243784 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C0C1891419E9E614004928C4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C0357B8F19E7658A00243784;
+					};
+					C0C1892519EAD6C0004928C4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C0357B8F19E7658A00243784;
+					};
+				};
+			};
+			buildConfigurationList = C0357B8B19E7658A00243784 /* Build configuration list for PBXProject "Finance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0357B8719E7658A00243784;
+			productRefGroup = C0357B9119E7658A00243784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0357B8F19E7658A00243784 /* Finance */,
+				C0C1892519EAD6C0004928C4 /* Unit Tests */,
+				C0C1891419E9E614004928C4 /* Acceptance Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0357B8E19E7658A00243784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0357B9F19E7658A00243784 /* Main.storyboard in Resources */,
+				C0357BA419E7658A00243784 /* LaunchScreen.xib in Resources */,
+				C0357BA119E7658A00243784 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1891319E9E614004928C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1892419EAD6C0004928C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C066D1B1A34785C65F7F15C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D3E99CE9E1B6F6C1A2D5D9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577FAABB1BE3B70B135A296E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unit Tests/Pods-Unit Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4193A41227B947E3771AF90 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finance/Pods-Finance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73713CA87E73408573F4CFD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7AB8598B0D853A9A87A18D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0357B8C19E7658A00243784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C089C73E19FD78CC00D8F7DD /* Entry.m in Sources */,
+				C0357B9919E7658A00243784 /* AppDelegate.m in Sources */,
+				C0357BD519E780E900243784 /* AccountTableViewCell.m in Sources */,
+				C0357BC519E76B1600243784 /* Database.m in Sources */,
+				C0357BD119E7719100243784 /* AddAccountViewModel.m in Sources */,
+				C0C88EA519FF3E81000BCD94 /* AddEntryViewModel.m in Sources */,
+				C0357BCE19E7702400243784 /* AddAccountViewController.m in Sources */,
+				C0357BC219E76A0B00243784 /* AccountsViewModel.m in Sources */,
+				C0357BBB19E765E200243784 /* AccountsViewController.m in Sources */,
+				C0C88EB719FF41E6000BCD94 /* EntryListViewModel.m in Sources */,
+				C089C73B19FD72D000D8F7DD /* AccountsEmptyViewModel.m in Sources */,
+				C0357BCB19E76E5200243784 /* Account.m in Sources */,
+				C0C88EAC19FF3EDF000BCD94 /* AddEntryViewController.m in Sources */,
+				C0C88EC019FF469C000BCD94 /* EntryViewModel.m in Sources */,
+				C0357BC819E76E4300243784 /* AccountCellViewModel.m in Sources */,
+				C0C88EBA19FF4330000BCD94 /* EntryTableViewCell.m in Sources */,
+				C0C88EB019FF3F82000BCD94 /* EntryListViewController.m in Sources */,
+				C0357B9619E7658A00243784 /* main.m in Sources */,
+				C0C88EBD19FF43A0000BCD94 /* EntryListEmptyViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1891119E9E614004928C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1892119E9E742004928C4 /* AddAccountTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1892219EAD6C0004928C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08EE8D819EB18830099A946 /* AccountsViewModelTests.m in Sources */,
+				C08EE8DA19EB3BB00099A946 /* AccountCellViewModelTests.m in Sources */,
+				C08EE8DC19EB3D170099A946 /* AddAccountViewModelTests.m in Sources */,
+				C044D45C19EB0F81006EE857 /* DatabaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C1891C19E9E614004928C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0357B8F19E7658A00243784 /* Finance */;
+			targetProxy = C0C1891B19E9E614004928C4 /* PBXContainerItemProxy */;
+		};
+		C0C1892D19EAD6C1004928C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0357B8F19E7658A00243784 /* Finance */;
+			targetProxy = C0C1892C19EAD6C1004928C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0357B9D19E7658A00243784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0357B9E19E7658A00243784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0357BA219E7658A00243784 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0357BA319E7658A00243784 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0357BB119E7658A00243784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0357BB219E7658A00243784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0357BB419E7658A00243784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541FDB9A0CBCA8C0DB1650B3 /* Pods-Finance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Finance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0357BB519E7658A00243784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09F1845C33F609C4B80D847 /* Pods-Finance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Finance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0C1891D19E9E614004928C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5820B6FB5CDDD7BC9FAB24BD /* Pods-Acceptance Tests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance.app/Finance";
+			};
+			name = Debug;
+		};
+		C0C1891E19E9E614004928C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C290D91E02A2A9B03504A9F9 /* Pods-Acceptance Tests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance.app/Finance";
+			};
+			name = Release;
+		};
+		C0C1892F19EAD6C1004928C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20F659F1850652AFC9FBCA0 /* Pods-Unit Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Finance.app/Finance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance.app/Finance";
+			};
+			name = Debug;
+		};
+		C0C1893019EAD6C1004928C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71E994F8D19D2D1653BAB50 /* Pods-Unit Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Finance.app/Finance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance.app/Finance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0357B8B19E7658A00243784 /* Build configuration list for PBXProject "Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0357BB119E7658A00243784 /* Debug */,
+				C0357BB219E7658A00243784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0357BB319E7658A00243784 /* Build configuration list for PBXNativeTarget "Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0357BB419E7658A00243784 /* Debug */,
+				C0357BB519E7658A00243784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C1891F19E9E614004928C4 /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C1891D19E9E614004928C4 /* Debug */,
+				C0C1891E19E9E614004928C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C1892E19EAD6C1004928C4 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C1892F19EAD6C1004928C4 /* Debug */,
+				C0C1893019EAD6C1004928C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0357B8819E7658A00243784 /* Project object */;
+}
