@@ -9,7 +9,7 @@ A versão completa dos slides se encontra no arquivo [rac.pdf](https://raw.githu
 
 ## Demo
 
-Neste repositório você encontrar duas demonstrações. Se procura um conteúdo mais didático e simples de entender recomendo testar o app Finance. Caso queria ver um código mais antigo e sem muita conformidade com a palestra veja o FunctionReactiveArtistsTracks.
+A Demo se encontra na pasta Finance. Para rodar ela você ira precisar do CocoaPods. Rode um `pod install` para baixar as dependencias. 
 
 ## Author
 
