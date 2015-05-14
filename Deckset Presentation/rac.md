@@ -159,18 +159,18 @@ RACSignal *signal = [RACSignal createSignal:^ RACDisposable * (id<RACSubscriber>
     return nil;
 }];
 
-RACSignal *powSingal = [signal map:^NSNumber(NSNumber *value){
+RACSignal *powSignal = [signal map:^NSNumber(NSNumber *value){
     NSUInteger intValue = [value unsignedIntegerValue];
     return @(intValue * intValue);
 }];
 
-[signal subscribeNext:^(id x) {
+[powSignal subscribeNext:^(id x) {
     NSLog(@"VALUE: %@", x);
 }];
 
 /** 
 Outputs:
-9
+VALUE: 9
 **/
 ```
 ---
@@ -190,7 +190,7 @@ RACSignal *letters = lettersArray.rac_sequence.signal;
 }];
 
 /**
-Outputs: 
+Outputs: (um por linha)
 A B C D E F G H I
 **/
 ```
@@ -209,7 +209,7 @@ RACSignal *pow = [numbers map:^NSNumber*(NSNumber *value){
 }];
 
 /**
-Outputs: 
+Outputs: (um por linha)
 1 4 9
 **/
 ```
